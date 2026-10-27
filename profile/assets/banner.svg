@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">UNCOMN — The Special Forces of Tech℠</title>
+  <desc id="desc">UNCOMN banner: Systems that actually work. Together. Delivering secure cloud, data, and cyber solutions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#201747"/>
+      <stop offset="1" stop-color="#140e2e"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+
+  <!-- seams motif: connected nodes, line-weight light -->
+  <g fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M900 70 L1010 130 L1140 90 L1210 190 L1080 250 L960 210 Z" stroke="#ffffff" stroke-opacity="0.18"/>
+    <path d="M1010 130 L1080 250 M960 210 L1140 90" stroke="#ffffff" stroke-opacity="0.12"/>
+    <path d="M1010 130 L1140 90" stroke="#F18A00" stroke-width="3"/>
+  </g>
+  <g>
+    <circle cx="900" cy="70" r="6" fill="#3CB4E5"/>
+    <circle cx="1010" cy="130" r="9" fill="#F18A00"/>
+    <circle cx="1140" cy="90" r="9" fill="#F18A00"/>
+    <circle cx="1210" cy="190" r="6" fill="#80BC00"/>
+    <circle cx="1080" cy="250" r="6" fill="#7E57C5"/>
+    <circle cx="960" cy="210" r="6" fill="#ffffff" fill-opacity="0.7"/>
+  </g>
+
+  <g font-family="Avenir, 'Avenir Next', Arial, Helvetica, sans-serif">
+    <rect x="80" y="74" width="56" height="6" fill="#F18A00"/>
+    <text x="80" y="140" fill="#ffffff" font-size="64" font-weight="900" letter-spacing="2">UNCOMN</text>
+    <text x="80" y="188" fill="#F18A00" font-size="30" font-weight="800" letter-spacing="1">THE SPECIAL FORCES OF TECH℠</text>
+    <text x="80" y="236" fill="#ffffff" font-size="24" font-weight="400">Systems that actually work. Together.</text>
+    <text x="80" y="268" fill="#ffffff" fill-opacity="0.65" font-size="18" font-weight="300">Delivering secure cloud, data, and cyber solutions</text>
+  </g>
+  <rect y="314" width="1280" height="6" fill="#F18A00"/>
+</svg>
